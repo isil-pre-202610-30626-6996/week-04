@@ -38,14 +38,26 @@ public class Calculator {
 
     public static void calculateMultiplesOfSix(int min, int max) {
         int count = 0;
+        int sum = 0;
 
         for (int i = min; i <= max; i++) {
             if (i % 6 == 0) {
                 count++;
+                sum += i;
             }
         }
 
         System.out.println("There are " + count + " multiples of six.");
+        System.out.println("Total: " + sum);
+    }
+
+    public static int calculateFactorial(int number){
+        int factorial = 1;
+
+        for (int i = 2; i <= number; i++) {
+            factorial *= i;
+        }
+        return factorial;
     }
 
 }

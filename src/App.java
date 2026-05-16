@@ -14,7 +14,9 @@ public class App {
 
         Calculator.displayEvenNumbers(5, 25);
 
-        Calculator.calculateMultiplesOfSix(15, 18);
+        Calculator.calculateMultiplesOfSix(1, 24);
+
+        System.out.println(Calculator.calculateFactorial(9));
 
     }
 }
