@@ -8,5 +8,7 @@ public class App {
             System.out.println("The student has not passed.");
         }
 
+        Calculator.getMax(20, 20);
+
     }
 }
