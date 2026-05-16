@@ -27,4 +27,13 @@ public class Calculator {
         return result;
     }
 
+    public static void displayEvenNumbers(int min, int max) {
+        while (min <= max) { 
+            if (min % 2 == 0) {
+                System.out.println(min + " is an even number.");
+            }
+            min++;
+        }
+    }
+
 }

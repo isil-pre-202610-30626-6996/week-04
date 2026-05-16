@@ -10,5 +10,9 @@ public class App {
 
         Calculator.getMax(20, 20);
 
+        System.out.println("Result: " + Calculator.executeOperation(5, 15, '-'));
+
+        Calculator.displayEvenNumbers(5, 25);
+
     }
 }
